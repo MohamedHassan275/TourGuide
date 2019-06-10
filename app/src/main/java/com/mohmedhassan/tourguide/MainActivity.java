@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import tourguide.tourguide.Overlay;
 import tourguide.tourguide.Pointer;
@@ -15,7 +16,7 @@ import tourguide.tourguide.TourGuide;
 public class MainActivity extends AppCompatActivity {
 
     private Button btnClickMe1, btnClickMe2, btnClickMe3;
-
+    private TextView txtHelloWorld;
     private TourGuide mTourGuideHandler;
 
     @Override
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                                 .setDescription("... a lot of good tutorials")
                                 .setBackgroundColor(Color.parseColor("#4b4b4b")))
                         .playOn(btnClickMe2);
+
 
             }
         });
