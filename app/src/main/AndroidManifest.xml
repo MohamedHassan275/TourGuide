@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mohmedhassan.tourguide">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ClickButton"></activity>
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TaipeiActivity" android:label="Taipei" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".TaichungActivity" android:label="Taichung" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".TainanActivity" android:label="Tainan" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".KaohsiungActivity" android:label="Kaohsiung" android:parentActivityName=".MainActivity"></activity>
+
     </application>
 
 </manifest>

@@ -15,31 +15,33 @@
       android:layout_height="match_parent">
 
       <TextView
-          android:text="Hi, this is a MrBool tooltip"
-          android:layout_width="wrap_content"
+          android:id="@+id/taipei"
+          style="@style/CategoryStyle"
           android:layout_height="wrap_content"
-          android:id="@+id/txtHelloWorld"/>
+          android:layout_width="match_parent"
+          android:text="Taipei" />
 
-      <Button
-          android:layout_width="wrap_content"
+      <TextView
+          android:id="@+id/taichung"
+          style="@style/CategoryStyle"
           android:layout_height="wrap_content"
-          android:id="@+id/btnTest1"
-          android:layout_below="@id/txtHelloWorld"
-          android:text="Click Me 1"/>
+          android:layout_width="match_parent"
+          android:text="Taichung" />
 
-      <Button
-          android:layout_width="wrap_content"
+      <TextView
+          android:id="@+id/tainan"
+          style="@style/CategoryStyle"
           android:layout_height="wrap_content"
-          android:id="@+id/btnTest2"
-          android:layout_centerInParent="true"
-          android:text="Click Me 2"/>
+          android:layout_width="match_parent"
+          android:text="Tainan" />
 
-      <Button
-          android:layout_width="wrap_content"
+      <TextView
+          android:id="@+id/kaohsiung"
+          style="@style/CategoryStyle"
           android:layout_height="wrap_content"
-          android:id="@+id/btnTest3"
-          android:layout_alignParentBottom="true"
-          android:text="Click Me 3"/>
+          android:layout_width="match_parent"
+          android:text="Kaohsiung" />
+
   </LinearLayout>
 
 </LinearLayout>
